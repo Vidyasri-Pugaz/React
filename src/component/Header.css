@@ -1,0 +1,55 @@
+header {
+  background-color: #52aff1; /* Header background color */
+  padding: 10px 20px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between; /* Space between left and right sections */
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+}
+
+.header-content {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+}
+
+.left-content {
+  display: flex;
+  align-items: center;
+}
+
+.logo {
+  width: 50px; /* Adjust as needed */
+  height: 50px; /* Adjust as needed */
+  margin-right: 10px;
+}
+
+.brand-name {
+  font-size: 24px;
+  color: white;
+  font-weight: bold;
+}
+
+.right-content {
+  display: flex;
+  gap: 10px;
+}
+
+.signin-btn,
+.signup-btn {
+  padding: 8px 12px;
+  background-color: white;
+  color: #52aff1;
+  border: none;
+  border-radius: 5px;
+  font-size: 14px;
+  font-weight: bold;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+
+.signin-btn:hover,
+.signup-btn:hover {
+  background-color: #cceeff;
+}

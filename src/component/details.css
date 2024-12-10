@@ -1,0 +1,27 @@
+.product-details {
+    padding: 10px;
+    text-align: center;
+    margin-bottom: 80px;
+  }
+  
+  .product-details h1 {
+    font-size: 1.8rem;
+    color: #333;
+    margin-top: 5px;
+  }
+  
+  .product-images {
+    width: 350px;       
+    height: 350px;     
+    margin-top: 20px;
+    margin-bottom: 20px;
+    float: left;
+    object-fit: cover; 
+  }
+  
+  .product-details p {
+    font-size: 1.3rem;
+    color: #555;
+    margin: 40px 0;
+    /* margin-top: 80px; */
+  }
